@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PuppyBowl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Bowl</title>
+</head>
+<body>  
+    <h1>PUPPY BOWL NEW PLAYER FORM</h1>
+    
+
+<form id="newPlayerForm">
+    <label for="playerName">Player Name:</label>
+    <input type="text" id="playerName" name="playerName" required>
+
+    <label for="playerAge">Player Age:</label>
+    <input type="number" id="playerAge" name="playerAge" required>
+
+    <label for="playerPosition">Player Position:</label>
+    <input type="text" id="playerPosition" name="playerPosition">
+
+    <button type="submit">Submit</button>
+</form><div id="playersList"></div>
+
+    <script src="script.js"></script>
+      
+    
+    <h1>Current Players as 0f 12/19/23:</h1>
+      
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 1">
+      <h2>CRUMPET</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: American Staffordshire Terrier</p>
+      <p>Age: 1 years old</p>
+      <p>Status: field</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 2">
+      <h2>DAPHNE</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: German Shepherd</p>
+      <p>Age: 1 years old</p>
+      <p>Status: field</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+    <div class="player-card">
+   <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 3">
+   <h2>KENNY</h2>
+   <button onclick="deleteDiv()">See more details</button>
+   <p>Breed: Golden Retriever / Boxer</p>
+   <p>Age: 16 months old</p>
+   <p>Status: bench</p>
+   <button onclick="deleteDiv()">Remove from roster</button>
+  </div>
+
+<div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 4">
+      <h2>ANISE</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Australian Cattle Dog / Labrador Retriever</p>
+      <p>Age: 20 months old</p>
+      <p>Status: field</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 5">
+      <h2>DUNCAN</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Collie</p>
+      <p>Age: 13 months old</p>
+      <p>Status: field</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 6">
+      <h2>FILBERT</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Shetland Sheepdog / Border Collie</p>
+      <p>Age: 1 years old</p>
+      <p>Status: field</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 7">
+      <h2>JACK</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Chihuahua / Miniature Poodle</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 8">
+      <h2>ALFALFA</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Veg</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 9">
+      <h2>RUFUS</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Irish Setter</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 10">
+      <h2>BERT</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Great Pyrenees / Weimaraner</p>
+      <p>Age: 1 years old</p>
+      <p>Status: field</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 11">
+      <h2>GINA</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Labrador Retriever / Chow Chow</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 12">
+      <h2>HUCK</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: Miniature Poodle / Shih Tzu</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 13">
+      <h2>FOO</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: foo</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+
+     <div class="player-card">
+      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fvariety.com%2Fwp-content%2Fuploads%2F2022%2F02%2FPuppy-Bowl-2022.jpg&tbnid=9NgF3bhUJ1dvBM&vet=12ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT..i&imgrefurl=https%3A%2F%2Fvariety.com%2Fgallery%2Fpuppy-bowl-2022-photos%2F&docid=TAEq_roW3XcAnM&w=1000&h=1000&q=100x100%20puppy%20bowl%20photos&ved=2ahUKEwjEyO6f356DAxWtr4kEHRY3Dn0QMygCegQIARBT" alt="Player 14">
+      <h2>CODY</h2>
+      <button onclick="deleteDiv()">See more details</button>
+      <p>Breed: pug</p>
+      <p>Age: 1 years old</p>
+      <p>Status: bench</p>
+      <button onclick="deleteDiv()">Remove from roster</button>
+     </div>
+</body>
+</html>
+
+<script>
+    const API_URL = 'https://fsa-puppy-bowl.herokuapp.com/api/${2311-fsa-et-web-ft-sf/players');
+
+    /**
+     * Fetches all players from the API.
+     * @returns {Promise<Object[]>} A Promise that resolves to an array of player objects
+     */
+    const fetchAllPlayers = async () => {  
+        try {
+            const response = await fetch(API_URL);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const players = await response.json();
+            return players;
+        } catch (error) {
+            console.error('Error fetching players:', error);
+            throw error;
+        }
+    };
+
+           * @param {Object[]} players An array of player objects
+     */
+    const renderPlayers = (players) => {
+        const playersListElement = document.getElementById('playersList');
+
+        // Clear the existing content
+        playersListElement.innerHTML = '';
+
+        // Create and append player list items
+        players.forEach(player => {
+            const listItem = document.createElement('div');
+            listItem.textContent = `Name: ${player.playerName}, Age: ${player.playerAge}, Position: ${player.playerPosition}`;
+            playersListElement.appendChild(listItem);
+        });
+    };
+
+    // Fetch and render players on page load
+    window.addEventListener('DOMContentLoaded', async () => {
+        try {
+            const players = await fetchAllPlayers();
+            renderPlayers(players);
+        }
